@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Paperclip::Qiniu::VERSION
   gem.add_dependency 'paperclip'
-  gem.add_dependency 'qiniu', :git => "git://github.com/liubin/paperclip-qiniu.git", :branch => "upgrade-gemversion"
+  gem.add_dependency 'qiniu', :git => "git://github.com/liubin/ruby-sdk.git", :branch => "upgrade-gemversion"
   gem.add_development_dependency 'rspec'
 end
